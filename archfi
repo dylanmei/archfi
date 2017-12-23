@@ -711,8 +711,8 @@ installmenu(){
 
 installbase(){
   clear
-  echo "pacstrap /mnt base"
-  pacstrap /mnt base
+  echo "pacstrap /mnt base iw wpa_supplicant"
+  pacstrap /mnt base iw wpa_supplicant
   pressanykey
 }
 
